@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="relative">
+      <body className="relative antialiased">
         <div className="pointer-events-none border-x border-blue-500/50 absolute left-0 right-0 top-0 bottom-0 max-w-[1440px] mx-auto h-full w-full" />
         <div className="py-4">
           <DynamicWidth />
